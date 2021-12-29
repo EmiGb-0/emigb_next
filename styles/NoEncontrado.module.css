@@ -1,0 +1,27 @@
+
+.no_encontrado {
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no_encontrado {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.no_encontrado i {
+    font-size: 5rem;
+    color: red;
+}
+
+.no_encontrado a {
+    color: var(--grisOscuro);
+    text-decoration: none;
+    font-size: 3rem;
+    margin: 0;
+    margin-top: 2rem;
+}

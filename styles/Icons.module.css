@@ -1,0 +1,56 @@
+
+.html:hover {
+    background-color: #e34f26;
+}
+
+.css:hover {
+    background-color: #2965f1;
+}
+
+.javascript:hover {
+    background-color: #f7df1e;
+}
+
+.bootstrap:hover {
+    background-color: #563d7c;
+}
+
+.sass:hover {
+    background-color: #cc6699;
+}
+
+.wordpress:hover {
+    background-color: #21759b;
+}
+
+.php:hover {
+    background-color: #8892be;
+}
+
+.node:hover {
+    background-color: #6cc24a;
+}
+
+.react:hover {
+    background-color: #00d8ff;
+}
+
+.next:hover {
+    background-color: #4e5860;
+}
+
+.laravel:hover {
+    background-color: #f55247;
+}
+
+.mysql:hover {
+    background-color: #00758f;
+}
+
+.postgresql:hover {
+    background-color: #00758f;
+}
+
+.mongo:hover {
+    background-color: #589636;
+}

@@ -1,0 +1,36 @@
+
+
+
+.mb {
+    margin-bottom: 5rem;
+}
+
+.contenido {
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .contenido {
+        max-width: 70rem;
+    }
+}
+
+.card {
+    border: 1px solid #404040;
+    font-style: italic;
+    color: #303030;
+    border-left: 20px solid #a1a1a1;
+}
+
+.card p:first-of-type {
+    padding: 0;
+}
+
+.card p:last-of-type {
+    text-align: right;
+    padding: 0;
+    padding-right: 10rem;
+    line-height: 0;
+}

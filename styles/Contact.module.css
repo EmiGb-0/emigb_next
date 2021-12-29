@@ -1,0 +1,84 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .flex {
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+    }
+}
+
+.flex a {
+    text-decoration: none;
+    color: var(--grisOscuro);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.flex a {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.flex a:hover {
+    transform: translateY(-10px);
+}
+
+.formulario legend {
+    font-size: 2rem;
+    color: var(--grisOscuro);
+}
+
+.mb {
+    margin-bottom: 2rem;
+}
+
+.formulario label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.formulario input:not([type='submit']) {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: var(--blanco);
+    border: 1px solid var(--grisOscuro);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.formulario textarea {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: var(--blanco);
+    border: 1px solid var(--grisOscuro);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    height: 20rem;
+}
+
+.btn {
+    background-color: var(--grisOscuro);
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    border: none;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.btn:hover {
+    background-color: var(--negro);
+    cursor: pointer;
+}
