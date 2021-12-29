@@ -6,7 +6,7 @@ const NoEncontrado = () => {
     return (
         <Layout>
             <div className={styles.no_encontrado}>
-                <i class="fas fa-exclamation-triangle"></i>
+                <i className="fas fa-exclamation-triangle"></i>
                 <h1 className="heading">Parece que te has perdido</h1>
 
                 <Link href='/'>Volver al inicio</Link>
