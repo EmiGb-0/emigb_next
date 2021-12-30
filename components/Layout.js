@@ -7,7 +7,11 @@ const Layout = ({children, pagina}) => {
         <div>
             <Head>
                 <title>EmiGb - {pagina}</title>
-                <meta name="description" content="Portafolio de EmiGb y cotizaciones de proyectos" />
+                <meta name="description" content="Portafolio de EmiGb - Developer web FullStack" />
+                <meta name="keywords" content="emigb, portfolio, portafolio, desarrollo, web, developer, blog"/>
+                <meta name="author" content="EmiGb" />
+                <meta name="copyright" content="EmiGb" />
+                <meta name="theme-color" content="#0C0C0C" />
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
             </Head>
 
