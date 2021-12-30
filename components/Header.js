@@ -45,7 +45,7 @@ const Header = () => {
                                 .typeString('<strong>de</strong> <span style="color: #e6ff07;">videojuegos</span>')
                                 .pauseFor(200)
                                 .deleteChars(14)
-                                .typeString('<strong>de apps <span style="color: #e6ff07;">moviles</span></strong>')
+                                .typeString('<strong>de apps </strong><span style="color: #e6ff07;">moviles</span>')
                                 .pauseFor(1000)
                                 .start();
                             }}
