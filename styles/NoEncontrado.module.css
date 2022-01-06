@@ -25,3 +25,7 @@
     margin: 0;
     margin-top: 2rem;
 }
+
+.no_encontrado p {
+    text-align: center;
+}
