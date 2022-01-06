@@ -2,6 +2,7 @@ import Image from "next/image"
 import Layout from "../../components/Layout"
 import { formatearFecha } from '../../helpers'
 import styles from '../../styles/EntradaBlog.module.css'
+import ReactMarkdown from "react-markdown"
 
 const Articulo = ({articulo}) => {
 
@@ -19,7 +20,7 @@ const Articulo = ({articulo}) => {
 
                     <div className={styles.contenido}>
                         <p className={styles.fecha}>{formatearFecha(published_at)}</p>
-                        <p className={styles.texto}>{contenido}</p>
+                        <ReactMarkdown className={styles.texto}>{contenido}</ReactMarkdown>
                     </div>
                 </article>
             </main>
