@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import Layout from "../../components/Layout"
 import { formatearFecha } from '../../helpers'
 import styles from '../../styles/EntradaBlog.module.css'
@@ -6,7 +7,7 @@ import ReactMarkdown from "react-markdown"
 
 const Articulo = ({articulo}) => {
 
-    const {titulo, contenido, imagen, published_at} = articulo[0]
+    const {titulo, contenido, imagen, published_at, categoria} = articulo[0]
 
     return (
         <Layout
@@ -19,7 +20,10 @@ const Articulo = ({articulo}) => {
                     <Image layout="responsive" width={800} height={600} src={imagen.url} alt={`Imagen entrada ${titulo}`} />
 
                     <div className={styles.contenido}>
-                        <p className={styles.fecha}>{formatearFecha(published_at)}</p>
+                        <div className={styles.categoria_contenedor}>
+                            <p className={styles.fecha}>{formatearFecha(published_at)}</p>
+                            <a className={styles.categoria}>{categoria}</a>
+                        </div>
                         <ReactMarkdown className={styles.texto}>{contenido}</ReactMarkdown>
                     </div>
                 </article>
