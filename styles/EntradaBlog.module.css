@@ -50,3 +50,26 @@
 .texto {
     white-space: pre-wrap;
 }
+
+.categoria_contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categoria {
+    margin-top: 2rem;
+    text-decoration: none;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1rem 2rem;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    border-radius: 2rem;
+}
+
+.categoria:hover {
+    cursor: pointer;
+}
