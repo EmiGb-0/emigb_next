@@ -6,7 +6,7 @@ import ListadoBlog from "../components/ListadoBlog"
 import styles from '../styles/Inicio.module.css'
 
 
-export default function Home({entradas}) {
+export default function Home() {
   return (
     <Layout
       pagina='Inicio'
@@ -30,20 +30,20 @@ export default function Home({entradas}) {
   )
 }
 
-export async function getServerSideProps() {
-  const urlBlog = `${process.env.API_URL}/blogs?_limit=3&_sort=created_at:desc`
+// export async function getServerSideProps() {
+//   const urlBlog = `${process.env.API_URL}/blogs?_limit=3&_sort=created_at:desc`
 
-  const [resBlog] = await Promise.all([
-    fetch(urlBlog),
-  ])
+//   const [resBlog] = await Promise.all([
+//     fetch(urlBlog),
+//   ])
 
-  const [entradas] = await Promise.all([
-    resBlog.json(),
-  ])
+//   const [entradas] = await Promise.all([
+//     resBlog.json(),
+//   ])
 
-  return {
-    props: {
-      entradas
-    }
-  }
-}
+//   return {
+//     props: {
+//       entradas
+//     }
+//   }
+// }
