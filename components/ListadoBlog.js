@@ -9,12 +9,7 @@ const ListadoBlog = ({entradas, titulo}) => {
             <h2 className="heading">{titulo}</h2>
 
             <div className={styles.blog}>
-                {entradas.map(entrada => (
-                    <EntradaBlog 
-                        key={entrada.url}
-                        entrada={entrada}
-                    />
-                ))}
+                {entradas.map((entrada, i) => <EntradaBlog entrada={entrada} key={i}/>)}
             </div>
         </>
     )
