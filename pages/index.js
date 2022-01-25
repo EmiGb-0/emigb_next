@@ -1,8 +1,9 @@
 import Link from 'next/link'
-import Layout from '../components/Layout'
-import styles from '../styles/Inicio.module.css'
 import SwiperFrases from '../components/Swiper'
+import Layout from '../components/Layout'
+import Proyectos from '../components/Proyectos'
 import ListadoBlog from "../components/ListadoBlog"
+import styles from '../styles/Inicio.module.css'
 
 
 export default function Home({entradas}) {
@@ -17,10 +18,12 @@ export default function Home({entradas}) {
       </div>
 
       <section className="contenedor">
-        <ListadoBlog 
+        {/* <ListadoBlog 
           entradas={entradas}
           titulo='Ultimos articulos'
-        />
+        /> */}
+
+
       </section>
 
     </Layout>

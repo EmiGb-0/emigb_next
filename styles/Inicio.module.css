@@ -34,3 +34,14 @@
     padding-right: 10rem;
     line-height: 0;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}

@@ -27,7 +27,7 @@ const Aboutme = () => {
                         <div className={`${styles.enlace} ${style.javascript}`}><i className="fab fa-js-square"></i><br /> JavaScript</div>
                         <div className={`${styles.enlace} ${style.bootstrap}`}><i className="fab fa-bootstrap"></i><br /> Bootstrap</div>
                         <div className={`${styles.enlace} ${style.sass}`}><i className="fab fa-sass"></i><br /> Sass</div>
-                        <div className={`${styles.enlace} ${style.wordpress}`}><i className="fab fa-wordpress"></i><br /> Wordpress</div>
+                        <div className={`${styles.enlace} ${style.tailwind}`}><i className="fas fa-grip-lines"></i><br /> TailwindCss</div>
                         <div className={`${styles.enlace} ${style.php}`}><i className="fab fa-php"></i><br /> Php</div>
                         <div className={`${styles.enlace} ${style.node}`}><i className="fab fa-node-js"></i><br /> Node.js</div>
                     </div>

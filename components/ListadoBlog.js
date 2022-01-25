@@ -4,6 +4,9 @@ import styles from '../styles/Blog.module.css'
 
 
 const ListadoBlog = ({entradas, titulo}) => {
+
+    console.log(entradas);
+
     return (
         <>
             <h2 className="heading">{titulo}</h2>
