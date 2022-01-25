@@ -10,7 +10,7 @@ const EntradaBlog = ({entrada}) => {
     return (
         <article>
 
-            <Image layout='responsive' width={800} height={600} src={imagen.url} alt={`Imagen Blog ${titulo}`}/>
+            <Image layout='responsive' width={800} height={600} src={imagen.url} alt={`Imagen Blog ${titulo}`} priority='false'/>
             <div className={styles.contenido}>
                 <h3>{titulo}</h3>
                 <p className={styles.fecha}>{formatearFecha(published_at)}</p>
