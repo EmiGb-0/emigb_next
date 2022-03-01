@@ -12,7 +12,7 @@ const Contacto = () => {
             <div className="contenedor">
                 <div className={styles.flex}>
                     <a><i className="fab fa-discord"></i><br />Discord</a>
-                    <a href="https://github.com/EmiGb-0" target={'_blank'}><i className="fab fa-github"></i><br />Github</a>
+                    <a href="https://github.com/EmiGb-0"  rel="noreferrer" target='_blank'><i className="fab fa-github"></i><br />Github</a>
                     <a><i className="fab fa-linkedin"></i><br />Linkedin</a>
                     <a><i className="fas fa-envelope"></i><br />Gmail</a>
                 </div>
