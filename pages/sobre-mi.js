@@ -10,7 +10,7 @@ const Aboutme = () => {
             <div className="contenedor">
                 <h1>Sobre Mi</h1>
                 <div>
-                    <p>Empecé en la programacion hace 2 años.</p>
+                    <p>Empecé en la programacion hace 4 años.</p>
                     <p>Inicie programando en C++, sin saber nada al respecto por obvias razones se me dificulto bastante y despues de una gran frustacion lo abandone.</p>
                     <p>Luego de eso tome un curso en la plataforma Udemy del lenguaje de programacion Java y de ahi comenzo mi gran camino hacia un buen aprendizaje.</p>
                     <p>¿Qué es lo importante?</p>
